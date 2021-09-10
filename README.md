@@ -29,8 +29,22 @@ Second, we look to forecast the cumulative number of confirmed cases within the 
 
 ### **Individual Files**
 
+    - article.pdf: comprehensive report of entire analysis including data,methodology,results,all figures,discussion, etc
+    
+    - code_arima.py: time series modeleling script
+    
+    - code_seird.py: compartmental SEIRD Model script
+
 ### **Folders/Contents**
 
+**Data**
+
+    -time_series_covid19_confirmed_global.csv: Global confirmed COVID-19 cases partitioned by time/location
+    
+    -time_series_covid19_deaths_global.csv: Global deaths due to COVID-19 partioned by time/location
+    
+    -time_series_covid19_recovered_global.csv: Global cases recovered from COVID-19 partitioned by time/location
+    
 ## Data
 
 ## Results
