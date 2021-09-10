@@ -15,17 +15,21 @@ Analysis of COVID-19 Data
 
 ## Project Introduction
 
-The study of infectious diseases has been of great interest within the field of epidemiology for many years due to unique characteristics of emergence and reemergence innately related to these viruses \cite{Math_Inf_Dis}. Infectious diseases demonstrate numerous characteristics distinct from other human disease including a potential for unpredictable and explosive global impact, human to human transmission, prevention potential, and dependence on the nature and complexity of human behavior \cite{Perp_Chal_Inf}. The transmission rate and potential impact of infectious disease have been directly related to human behavior and lifestyle due to modes of transmission such as social gatherings, public transportation, occupation, and the current healthcare environment.
+The study of infectious diseases has been of great interest within the field of epidemiology for many years due to unique characteristics of emergence and reemergence innately related to these viruses. Infectious diseases demonstrate numerous characteristics distinct from other human disease including a potential for unpredictable and explosive global impact, human to human transmission, prevention potential, and dependence on the nature and complexity of human behavior. The transmission rate and potential impact of infectious disease have been directly related to human behavior and lifestyle due to modes of transmission such as social gatherings, public transportation, occupation, and the current healthcare environment.
 
-Mathematical models in combination with the field of epidemiology have been identified as useful experimental tools for hypothesis evaluation, answering disease specific questions, and estimating key dynamic quantities from the data related to infectious disease. This type of modeling effort can identify important data, highlight hidden trends, forecast incidence and quantify uncertainty within model forecasts \cite{3_basic_models}. Inherently, the reliability of public health surveillance and model forecasts depends upon the ability of models to make the extrapolations necessary to predict the most likely course of a public health emergency given the incoming, recorded information \cite{Bettencourt}.
+Mathematical models in combination with the field of epidemiology have been identified as useful experimental tools for hypothesis evaluation, answering disease specific questions, and estimating key dynamic quantities from the data related to infectious disease. This type of modeling effort can identify important data, highlight hidden trends, forecast incidence and quantify uncertainty within model forecasts. Inherently, the reliability of public health surveillance and model forecasts depends upon the ability of models to make the extrapolations necessary to predict the most likely course of a public health emergency given the incoming, recorded information.
 
-In this piece, we propose multiple methods as techniques for predicting incidence of 2019-nCoV in the United States and the transmission potential of the virus. The discussed mathematical and statistical methods are those able to estimate or predict key epidemiological parameters from available, physical data \cite{modeling_toolkit}. 
+In this piece, we propose multiple methods as techniques for predicting incidence of 2019-nCoV in the United States and the transmission potential of the virus. The discussed mathematical and statistical methods are those able to estimate or predict key epidemiological parameters from available, physical data. 
 
-First, we propose and define a compartmental SEIRD model out of the classical deterministic epidemiological toolkit as a baseline analysis of the exponential growth phase of the current epidemic. Moreover, we look to employ this type of compartmental model to analyze short term incidence and estimate the basic reproductive number $R_0$. This epidemiological parameter is of interest due to its ability to quantify infectious disease transmission over a population \cite{Metcalf}. Simply put, the value of this parameter will describe epidemic severity based on novel transmission. 
+First, we propose and define a compartmental SEIRD model out of the classical deterministic epidemiological toolkit as a baseline analysis of the exponential growth phase of the current epidemic. Moreover, we look to employ this type of compartmental model to analyze short term incidence and estimate the basic reproductive number $R_0$. This epidemiological parameter is of interest due to its ability to quantify infectious disease transmission over a population. Simply put, the value of this parameter will describe epidemic severity based on novel transmission. 
 
-Second, we look to forecast the cumulative number of confirmed cases within the United States. This type of data is reported daily by numerous organizations around the globe with the caveat that the number of confirmed or recovered cases on a specific day have strong correlations with the values of previous days. Therefore, we look to implement a statistical based method to aid in forecasting confirmed disease incidence within the United States based on the use of these previous values. The different types of auto regressive time series models have proven to be strong, flexible tools for analyzing overall patterns within time series data and have been used to estimate and forecast many practical problems. Specifically, the ARIMA model is often used for the prediction of infectious disease \cite{Chae}.
+Second, we look to forecast the cumulative number of confirmed cases within the United States. This type of data is reported daily by numerous organizations around the globe with the caveat that the number of confirmed or recovered cases on a specific day have strong correlations with the values of previous days. Therefore, we look to implement a statistical based method to aid in forecasting confirmed disease incidence within the United States based on the use of these previous values. The different types of auto regressive time series models have proven to be strong, flexible tools for analyzing overall patterns within time series data and have been used to estimate and forecast many practical problems. Specifically, the ARIMA model is often used for the prediction of infectious disease.
 
 ## File Directory
+
+### **Individual Files**
+
+### **Folders/Contents**
 
 ## Data
 
@@ -47,50 +51,35 @@ Second, we look to forecast the cumulative number of confirmed cases within the 
 
     Cintron-Arias, A., Castillo-Chavez, C., Bettencourt, L. M. A., Lloyd, A., & Banks, H. T. (2009). The estimation of the effective reproductive number from disease outbreak data. Mathematical Biosciences and Engineering, 6(2), 261–282. https://doi.org/10.3934/mbe.2009.6.261
 
-
     Dukic, V., Lopes, H. F., & Polson, N. G. (2012). Tracking Epidemics With Google Flu Trends Data and a State-Space SEIR Model. Journal of the American Statistical Association, 107(500), 1410–1426. https://doi.org/10.1080/01621459.2012.713876
-
 
     Dureau, J., Kalogeropoulos, K., & Baguelin, M. (2013). Capturing the time-varying drivers of an epidemic using stochastic dynamical systems. Biostatistics, 14(3), 541–555. https://doi.org/10.1093/biostatistics/kxs052
 
-
     Erraguntla, M., Zapletal, J., & Lawley, M. (2019). Framework for Infectious Disease Analysis: A comprehensive and integrative multi-modeling approach to disease prediction and management. Health Informatics Journal, 25(4), 1170–1187. https://doi.org/10.1177/1460458217747112
-
 
     Fattah, J., Ezzine, L., Aman, Z., El Moussami, H., & Lachhab, A. (2018). Forecasting of demand using ARIMA model. International Journal of Engineering Business Management, 10, 184797901880867. https://doi.org/10.1177/1847979018808673
 
-
     Fauci, A. S., & Morens, D. M. (2012). The Perpetual Challenge of Infectious Diseases. New England Journal of Medicine, 366(5), 454–461. https://doi.org/10.1056/NEJMra1108296
 
-
     Fountain‐Jones, N. M., Machado, G., Carver, S., Packer, C., Recamonde‐Mendoza, M., & Craft, M. E. (2019). How to make more from exposure data? An integrated machine learning pipeline to predict pathogen exposure. Journal of Animal Ecology, 88(10), 1447–1461. https://doi.org/10.1111/1365-2656.13076
-
 
     Gambhir, M., Bozio, C., O’Hagan, J. J., Uzicanin, A., Johnson, L. E., Biggerstaff, M., & Swerdlow, D. L. (2015). Infectious Disease Modeling Methods as Tools for Informing Response to Novel Influenza Viruses of Unknown Pandemic Potential. Clinical Infectious Diseases, 60(suppl\_1), S11–S19. https://doi.org/10.1093/cid/civ083
 
     Halloran, M. E., & Longini, I. M. (2014). Emerging, evolving, and established infectious diseases and interventions. Science, 345(6202), 1292–1294. https://doi.org/10.1126/science.1254166
 
-
     Hethcote, H. W. (1989). Three Basic Epidemiological Models. In S. A. Levin, T. G. Hallam, & L. J. Gross (Eds.), Applied Mathematical Ecology (Vol. 18, pp. 119–144). Springer Berlin Heidelberg. https://doi.org/10.1007/978-3-642-61317-3\_5
-
 
     Hethcote, H. W. (2000). The Mathematics of Infectious Diseases. SIAM Review, 42(4), 599–653. https://doi.org/10.1137/S0036144500371907
 
-
     Huang, C., Wang, Y., Li, X., Ren, L., Zhao, J., Hu, Y., Zhang, L., Fan, G., Xu, J., Gu, X., Cheng, Z., Yu, T., Xia, J., Wei, Y., Wu, W., Xie, X., Yin, W., Li, H., Liu, M., … Cao, B. (2020). Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China. The Lancet, 395(10223), 497–506. https://doi.org/10.1016/S0140-6736(20)30183-5
-
 
     Imai, C., Armstrong, B., Chalabi, Z., Mangtani, P., & Hashizume, M. (2015). Time series regression model for infectious disease and weather. Environmental Research, 142, 319–327. https://doi.org/10.1016/j.envres.2015.06.040
 
-
     Koehler, A. B., & Murphree, E. S. (1988). A Comparison of the Akaike and Schwarz Criteria for Selecting Model Order. Applied Statistics, 37(2), 187. https://doi.org/10.2307/2347338
-
 
     Kucharski, A. J., Russell, T. W., Diamond, C., Liu, Y., Edmunds, J., Funk, S., Eggo, R. M., Sun, F., Jit, M., Munday, J. D., Davies, N., Gimma, A., van Zandvoort, K., Gibbs, H., Hellewell, J., Jarvis, C. I., Clifford, S., Quilty, B. J., Bosse, N. I., … Flasche, S. (2020). Early dynamics of transmission and control of COVID-19: A mathematical modelling study. The Lancet Infectious Diseases, S1473309920301444. https://doi.org/10.1016/S1473-3099(20)30144-4
 
-
     Kwiatkowski, D., Phillips, P. C. B., Schmidt, P., & Shin, Y. (1992). Testing the null hypothesis of stationarity against the alternative of a unit root. Journal of Econometrics, 54(1–3), 159–178. https://doi.org/10.1016/0304-4076(92)90104-Y
-
 
     Li, Q., Guan, X., Wu, P., Wang, X., Zhou, L., Tong, Y., Ren, R., Leung, K. S. M., Lau, E. H. Y., Wong, J. Y., Xing, X., Xiang, N., Wu, Y., Li, C., Chen, Q., Li, D., Liu, T., Zhao, J., Liu, M., … Feng, Z. (2020). Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus–Infected Pneumonia. New England Journal of Medicine, 382(13), 1199–1207. https://doi.org/10.1056/NEJMoa2001316
 
@@ -115,4 +104,3 @@ Second, we look to forecast the cumulative number of confirmed cases within the 
     Yang, E., Park, H., Choi, Y., Kim, J., Munkhdalai, L., Musa, I., & Ryu, K. (2018). A Simulation-Based Study on the Comparison of Statistical and Time Series Forecasting Methods for Early Detection of Infectious Disease Outbreaks. International Journal of Environmental Research and Public Health, 15(5), 966. https://doi.org/10.3390/ijerph15050966
 
     Zhang, X., Zhang, T., Young, A. A., & Li, X. (2014). Applications and Comparisons of Four Time Series Models in Epidemiological Surveillance Data. PLoS ONE, 9(2), e88075. https://doi.org/10.1371/journal.pone.0088075
-
