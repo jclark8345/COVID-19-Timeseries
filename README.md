@@ -1,5 +1,5 @@
 # COVID-19-Timeseries
-Analysis of COVID-19 Data
+Analysis of COVID-19 Data. For a full writeup of anaylsis, please set [article.pdf](https://github.com/jclark8345/COVID-19-Timeseries/blob/main/article.pdf)
 
 ## Contents
 
