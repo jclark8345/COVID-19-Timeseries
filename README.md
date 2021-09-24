@@ -4,13 +4,9 @@ Analysis of COVID-19 Data. For a full writeup of anaylsis, please set [article.p
 ## Contents
 
 - [Project Introduction](#project-introduction)
-
 - [File Directory](#file-directory)
-
 - [Data](#data)
-
 - [Results](#results)
-
 - [References](#references)
 
 ## Project Introduction
